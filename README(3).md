@@ -340,6 +340,6 @@ According to the linked dataset source, `R` represents **Recurrence** and `N` re
 
 ## Author
 
-**Showri**
+**Showri Shreyans Reddy Mummadi**
 
 Machine Learning / Data Analytics Project
