@@ -83,8 +83,6 @@ Class distribution:
 - `N` / No-Recurrence: **357 records**
 - `R` / Recurrence: **212 records**
 
-> **Important correction:** If any notebook chart currently labels class `0` as **Benign** and class `1` as **Malignant**, those chart labels should be changed to **No-Recurrence** and **Recurrence** respectively so that they agree with the dataset source.
-
 ---
 
 ## Project Workflow
@@ -275,19 +273,6 @@ WBCD_prognosis.csv
 
 ---
 
-## Suggested Repository Structure
-
-```text
-breast-cancer-ml/
-│
-├── Showri_Final.ipynb
-├── WBCD_prognosis.csv
-├── README.md
-└── requirements.txt
-```
-
-If the dataset cannot be redistributed because of its licence or source conditions, do not upload it to the repository. Instead, provide a link to its authorised source.
-
 ---
 
 ## Example `requirements.txt`
@@ -333,8 +318,6 @@ The results demonstrate how predictive modelling can be combined with explainabl
 ## Important Note
 
 This notebook is an academic/data-science project and should **not** be treated as a clinical diagnostic system. Model performance is based on the dataset and train-test split used in this notebook and does not establish clinical validity.
-
-According to the linked dataset source, `R` represents **Recurrence** and `N` represents **No-Recurrence**. Any benign/malignant labels in notebook visualisations should therefore be corrected before presenting or submitting the project.
 
 ---
 
